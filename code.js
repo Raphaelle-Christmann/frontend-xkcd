@@ -20,7 +20,7 @@ const fetchIssue = (n) => {
         imgnum = json.num;
         console.log(`num = ${imgnum}`);
         stat.innerText = `Current number : ${imgnum}`;
-        Img.src = `${json.img}`
+        Img.src = `${json.img}`;
     })
 }
 
